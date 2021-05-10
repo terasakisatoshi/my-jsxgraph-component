@@ -1,0 +1,59 @@
+{
+  "src/lib/components/JXGBoard.react.js": {
+    "description": "Displays Board of JSXGraph",
+    "displayName": "JXGBoard",
+    "methods": [
+      {
+        "name": "drawBox",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "example": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "0 or 1"
+      },
+      "boardAttributes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": ""
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "style=\"width:500px; height:500px;\""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

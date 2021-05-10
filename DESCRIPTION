@@ -1,0 +1,13 @@
+Package: myJsxgraphComponent
+Title: My JSXGraph Board for Dash
+Version: 0.0.1
+Description: My JSXGraph Board for Dash
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/terasakisatoshi/my-jsxgraph-component
+BugReports: https://github.com/terasakisatoshi/my-jsxgraph-component/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

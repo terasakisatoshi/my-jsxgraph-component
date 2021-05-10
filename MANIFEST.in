@@ -1,0 +1,7 @@
+include my_jsxgraph_component/my_jsxgraph_component.min.js
+include my_jsxgraph_component/my_jsxgraph_component.min.js.map
+include my_jsxgraph_component/metadata.json
+include my_jsxgraph_component/package-info.json
+include README.md
+include LICENSE
+include package.json
