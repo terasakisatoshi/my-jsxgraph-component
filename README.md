@@ -50,6 +50,7 @@ If you have selected install_dependencies during the prompt, you can skip this p
     3. Run and modify the `app.jl` sample dash app:
         ```
         $ julia -e 'using Pkg; Pkg.add(["Dash", "DashCoreComponents", "DashHtmlComponents"])'
+        $ julia --project=@. -e 'using Pkg; Pkg.instantiate()'
         $ julia --project=@. app.jl
         ```
     - Write tests for your component.
