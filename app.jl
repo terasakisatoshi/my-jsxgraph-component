@@ -40,7 +40,7 @@ callback!(app,
     Output("hidden", "children"),
     Input("mycomponent", "value"),
     ) do v
-    v
+    "You've selected " * v
 end
 
 run_server(app, "0.0.0.0", 8080, debug=true)
